@@ -4,6 +4,7 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Home from "./screens/Home";
 import About from "./screens/About";
+import ProductsDetails from "./screens/ProductsDetails";
 
 //routes
 const Stack = createNativeStackNavigator();
@@ -16,6 +17,7 @@ export default function App() {
           component={Home}
           options={{ headerShown: false }}
         />
+        <Stack.Screen name="productDetails" component={ProductsDetails} />
         <Stack.Screen name="mobile" component={About} />
       </Stack.Navigator>
     </NavigationContainer>
