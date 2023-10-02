@@ -33,11 +33,11 @@ const Categories = () => {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#ffffff",
-    padding: 5,
+    // padding: ,
     flexDirection: "row",
   },
   catContainer: {
-    padding: 15,
+    padding: 8,
     justifyContent: "center",
     alignItems: "center",
   },
